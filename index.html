@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
+    <meta name="description" content="مشروع رحلة التراث عبر الألغاز - مدرسة تلاع العلي الثانوية - الأسبوع العربي للبرمجة 2025. ابتكار تعليمي يدمج الهولوغرام بالبرمجة.">
+    <meta name="keywords" content="الأسبوع العربي للبرمجة, نسرين الشناق, مدرسة تلاع العلي, رحلة التراث عبر الألغاز, هولوغرام تعليمي, الأردن">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>لعبة التراث عبر الألغاز | الاسبوع العربي للبرمجة</title>
@@ -10,7 +12,7 @@
             --primary-blue: #1e3a8a;
             --tech-purple: #7c3aed;
             --soft-white: #f8fafc;
-            --gradient-main: linear-gradient(135deg, #1e3a8a 0%, #7c3aed 100%);
+            --gradient-main: linear-gradient (135 deg, #1e3a8a 0 %, #7c3aed 100 %);
         }
 
         * {
@@ -21,7 +23,7 @@
         }
 
         body {
-            background-color: var(--soft-white);
+            background-color: var (--soft-white);
             color: #334155;
             line-height: 1.6;
         }
@@ -29,11 +31,11 @@
         /* Header & Navigation */
         header {
             background: white;
-            padding: 1rem 5%;
+            padding: 1 rem 5 %;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2 px 10 px rgba (0,0,0,0.1);
             position: sticky;
             top: 0;
             z-index: 1000;
@@ -41,120 +43,211 @@
 
         .event-title {
             font-weight: 900;
-            color: var(--primary-blue);
-            font-size: 1.2rem;
+            color: var (--primary-blue);
+            font-size: 1.2 rem;
         }
 
         /* Hero Section */
         .hero {
-            background: var(--gradient-main);
+            background: var (--gradient-main);
             color: white;
-            padding: 80px 10%;
+            padding: 80 px 10 %;
             text-align: center;
-            border-bottom-right-radius: 100px;
+            border-bottom-right-radius: 100 px;
         }
 
         .robot-img {
-            width: 150px;
-            margin-bottom: 20px;
-            filter: drop-shadow(0 0 15px rgba(255,255,255,0.3));
-            animation: float 3s ease-in-out infinite;
+            width: 150 px;
+            margin-bottom: 20 px;
+            filter: drop-shadow (0 0 15 px rgba (255,255,255,0.3));
+            animation: float 3 s ease-in-out infinite;
         }
 
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
+        @ keyframes float {
+            0%, 100% { transform: translateY (0); }
             50% { transform: translateY(-15px); }
         }
 
         .hero h1 {
-            font-size: 2.5rem;
-            margin-bottom: 15px;
+            font-size: 2.5 rem;
+            margin-bottom: 15 px;
         }
 
         /* Sections Styling */
         section {
-            padding: 60px 10%;
+            padding: 60 px 10 %;
         }
 
         .section-title {
             text-align: center;
-            color: var(--primary-blue);
-            margin-bottom: 40px;
-            font-size: 2rem;
+            color: var (--primary-blue);
+            margin-bottom: 40 px;
+            font-size: 2 rem;
             position: relative;
         }
 
         .section-title::after {
             content: '';
             display: block;
-            width: 60px;
-            height: 4px;
-            background: var(--tech-purple);
-            margin: 10px auto;
+            width: 60 px;
+            height: 4 px;
+            background: var (--tech-purple);
+            margin: 10 px auto;
         }
 
         /* Cards Design */
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 25px;
+            grid-template-columns: repeat (auto-fit, minmax (300 px, 1 fr));
+            gap: 25 px;
         }
 
         .card {
             background: white;
-            padding: 30px;
-            border-radius: 20px;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
-            border-top: 5px solid var(--tech-purple);
-            transition: transform 0.3s;
+            padding: 30 px;
+            border-radius: 20 px;
+            box-shadow: 0 10 px 20 px rgba (0,0,0,0.05);
+            border-top: 5 px solid var (--tech-purple);
+            transition: transform 0.3s ;
         }
 
         .card:hover {
-            transform: translateY(-10px);
+            transform: translateY (-10 px);
         }
 
         .card h3 {
-            color: var(--primary-blue);
-            margin-bottom: 15px;
+            color: var (--primary-blue);
+            margin-bottom: 15 px;
         }
 
         /* Team Section */
         .team-box {
             background: #eff6ff;
-            padding: 40px;
-            border-radius: 30px;
+            padding: 40 px;
+            border-radius: 30 px;
         }
 
         .member {
-            margin-bottom: 20px;
-            padding: 15px;
+            margin-bottom: 20 px;
+            padding: 15 px;
             background: white;
-            border-radius: 15px;
+            border-radius: 15 px;
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 15 px;
         }
 
         .badge {
-            background: var(--tech-purple);
+            background: var (--tech-purple);
             color: white;
-            padding: 2px 12px;
-            border-radius: 50px;
-            font-size: 0.8rem;
+            padding: 2 px 12 px;
+            border-radius: 50 px;
+            font-size: 0.8 rem;
         }
 
         footer {
             background: #1e293b;
             color: white;
             text-align: center;
-            padding: 30px;
-            margin-top: 50px;
+            padding: 30 px;
+            margin-top: 50 px;
         }
 
         /* Responsive */
-        @media (max-width: 768px) {
-            .hero h1 { font-size: 1.8rem; }
-            section { padding: 40px 5%; }
+        @ media (max-width: 768px) {
+            .hero h1 { font-size: 1.8 rem; }
+            section { padding: 40 px 5 %; }
+        }
+
+        /* Community Impact & Video Styling */
+        .community-section {
+            background-color: #f3e8ff;
+            padding: 60 px 10 %;
+            border-radius: 30 px;
+            margin: 40 px 0;
+        }
+
+        .community-grid {
+            display: flex;
+            align-items: center;
+            gap: 40 px;
+            flex-wrap: wrap;
+        }
+
+        .community-text {
+            flex: 2;
+        }
+
+        .community-image {
+            flex: 2;
+            text-align: center;
+        }
+
+        .community-image img {
+            width: 100 %;
+            max-width: 300 px;
+            border-radius: 20 px;
+            border: 5 px solid white;
+            box-shadow: 0 10 px 20 px rgba (124, 58, 237, 0.2);
+        }
+
+        .video-box {
+            text-align: center;
+            margin: 50 px 0;
+        }
+
+        /* تعديل لعرض الفيديو بشكل صحيح على المتصفحات */
+        .video-box video {
+            width: 100 %;
+            max-width: 800 px;
+            border-radius: 20 px;
+            border: 4 px solid #7c3aed;
+        }
+
+        .check-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .check-list li {
+            margin-bottom: 15 px;
+            font-weight: bold;
+            color: #1e3a8a;
+        }
+
+        .check-list li::before {
+            content: "✅ ";
+            margin-left: 10 px;
+        }
+
+        .quiz-btn {
+            padding: 18 px;
+            border: 2 px solid #e2e8f0;
+            border-radius: 12 px;
+            background: #f8fafc;
+            cursor: pointer;
+            font-family: 'Cairo', sans-serif;
+            font-size: 1.1 rem;
+            font-weight: 600;
+            color: #334155;
+            transition: all 0.2 s ease;
+        }
+
+        .quiz-btn:hover {
+            border-color: #7c3aed;
+            background: #f5f3ff;
+        }
+
+        .correct-ans {
+            background-color: #dcfce7 ! important;
+            border-color: #22c55e ! important;
+            color: #166534 ! important;
+        }
+
+        .wrong-ans {
+            background-color: #fee2e2 ! important;
+            border-color: #ef4444 ! important;
+            color: #991b1b ! important;
         }
     </style>
 </head>
@@ -162,25 +255,22 @@
 
 <header>
     <div class="event-title">الاسبوع العربي للبرمجة | Arab Code Week 2025</div>
-    <div class="school-name">مدرسة تلاع العلي الثانوية</div>
+    <div class="school-name">مدرسة تلاع العلي الثانوية -الاردن </div>
 </header>
 
 <section class="hero">
     <img src="https://cdn-icons-png.flaticon.com/512/4712/4712035.png" alt="Robot Character" class="robot-img">
     <h1>لعبة التراث عبر الألغاز</h1>
     <h3>رحلة استكشافية بين أركان المدرسة</h3>
-    <p style="max-width: 800px; margin: 20px auto; font-size: 1.1rem; opacity: 0.9;">
+    <p style="max-width: 800 px; margin: 20 px auto; font-size: 1.1 rem; opacity: 0.9;">
         تكنولوجيا الهولوغرام والـ QR Code تجتمع لإحياء الهوية العربية وتطوير مهارات البرمجة في بيئة مدرسية تفاعلية ومبتكرة.
     </p>
 </section>
 
 <section id="about">
     <h2 class="section-title">فكرة المشروع ورؤيته</h2>
-    <p style="text-align: center; max-width: 900px; margin: 0 auto;">
-        انطلق المشروع من رؤية المعلمة نسرين الشناق
-         لدمج التقنية بالتعليم بطريقة غير تقليدية. حولنا المدرسة إلى مسار رقمي يربط الماضي بالمستقبل، حيث تكتشف الطالبة التراث من خلال حل الألغاز البرمجية والتفاعل مع الشخصيات التاريخية عبر تقنية الهولوغرام وال
-         QRCode 
-         عبر جوجل فورم.
+    <p style="text-align: center; max-width: 900 px; margin: 0 auto;">
+        انطلق المشروع من رؤية المعلمة نسرين الشناق لدمج التقنية بالتعليم بطريقة غير تقليدية. حولنا المدرسة إلى مسار رقمي يربط الماضي بالمستقبل، حيث تكتشف الطالبة التراث من خلال حل الألغاز البرمجية والتفاعل مع الشخصيات التاريخية عبر تقنية الهولوغرام والـ QRCode عبر جوجل فورم.
     </p>
 </section>
 
@@ -201,6 +291,33 @@
         </div>
     </div>
 </section>
+
+<section class="community-section">
+    <div class="community-grid">
+        <div class="community-text">
+            <h2 style="color: #1e3a8a; margin-bottom: 20 px;">توسيع الأثر: الهولوغرام كجسر للمجتمع المحلي</h2>
+            <p style="margin-bottom: 20 px;">
+                لم يتوقف طموحنا عند أسوار المدرسة، بل عملنا على نقل التجربة لقلب المجتمع المحلي ليكون شريكاً في النجاح.
+            </p>
+            <ul class="check-list">
+                <li>تدريب أولياء الأمور والمجتمع المحلي على تقنيات الهولوغرام البسيطة.</li>
+                <li>إرسال فيديوهات الألغاز التراثية للأهالي لعرضها في المنازل مع أبنائهم.</li>
+                <li>تحويل التكنولوجيا إلى نشاط عائلي تفاعلي يربط الأجيال بهويتهم.</li>
+                <li>تمكين المجتمع من استخدام الأدوات الرقمية لخدمة الثقافة والتعليم.</li>
+            </ul>
+        </div>
+        <div class="community-image">
+            <img src="https://github.com/shamlakhbatool-dot/HeritagePuzzlesJordan.batool.com/commit/ae16979f770a1aaee2a4fc880fa8e719dc3606c9" alt="Community Interaction">
+        </div>
+    </div>
+</section>
+
+<div class="video-box">
+    <h2 style="color: #1e3a8a; margin-bottom: 25 px;">شاهد كيف يتفاعل الطلاب مع تقنية الهيلوغرام</h2>
+    <video controls>
+        <source src="https://github.com/shamlakhbatool-dot/HeritagePuzzlesJordan.batool.com/commit/ae16979f770a1aaee2a4fc880fa8e719dc3606c9" type="video/mp4">
+    </video>
+</div> 
 
 <section id="team">
     <h2 class="section-title">المبتكرون خلف المشروع</h2>
@@ -232,27 +349,86 @@
         المشروع يتجاوز كونه نشاطاً مؤقتاً؛ فهو نظام مستدام يمكن تحديثه دورياً، وقد نجح في دمج المجتمع المحلي وأولياء الأمور في العملية التعليمية عبر المنصات الرقمية، مما جعل التراث لغة مشتركة بين الجميع،حيث سيتم تطويره وتجديد الاسئلة دوريا كل شهر الى شهرين ونشره عبره السوشيال ميديا لنشر التراث والعادات والتقاليد القديمة. 
     </p>
 </section>
-<section id="future-vision" style="background: linear-gradient(to right, #ffffff, #f3e8ff);">
+
+<section id="future-vision" style="background: linear-gradient ( toright, #ffffff, #f3e8ff);">
     <h2 class="section-title">طموحنا: نموذج عالمي عابر للحدود</h2>
-    <div style="max-width: 900px; margin: 0 auto; text-align: justify; line-height: 1.8;">
+    <div style="max-width: 900 px; margin: 0 auto; text-align: justify; line-height: 1.8;">
         <p>
             نحن لا ننظر إلى مشروع <strong>«رحلة التراث عبر الألغاز»</strong> كفعالية مدرسية مؤقتة، بل نقدّمه كـ <strong>"نموذج تعليمي ريادي"</strong> قابل للتطبيق والتعميم في كافة مدارس الوطن العربي والعالم. 
         </p>
-        <ul style="margin-top: 20px; list-style-type: none;">
+        <ul style="margin-top: 20 px; list-style-type: none;">
             <li>✅ <strong>كفاءة التكلفة:</strong> ابتكار تقني بأدوات بسيطة ومتاحة للجميع.</li>
             <li>✅ <strong>مرونة المحتوى:</strong> محرك ألغاز قابل للتكيف مع أي ثقافة أو منهاج دراسي.</li>
             <li>✅ <strong>استدامة طلابية:</strong> تمكين الطالبات من إدارة وتطوير المشروع بأنفسهن.</li>
         </ul>
-        <p style="margin-top: 20px; font-weight: bold; color: var(--tech-purple); text-align: center;">
+        
+        <section id="video-quiz-challenge" style="padding: 60 px 10 %; background: linear-gradient (tobottom, #f3e8ff, #ffffff); font-family: 'Cairo', sans-serif;">
+            <h2 class="section-title">مثال على احد الالغاز التراثية</h2> 
+            <div style="background: white; padding: 30 px; border-radius: 25 px; box-shadow: 0 15 px 35 px rgba (124, 58, 237, 0.15); border: 2 px solid #7c3aed; max-width: 850 px; margin: 0 auto;">
+                <div style="text-align: center; margin-bottom: 30 px;">
+                    <p style="color: #7c3aed; font-weight: bold; margin-bottom: 15 px;">📺 شاهد الفيديو بتركيز لتكتشف الحل:</p>
+                    <div style="position: relative; border-radius: 15 px; border: 3 px solid #1e3a8a; overflow: hidden;">
+                        <video controls style="width: 100 %;">
+                            <source src="https://github.com/shamlakhbatool-dot/HeritagePuzzlesJordan.batool.com/commit/ae16979f770a1aaee2a4fc880fa8e719dc3606c9" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+
+                <hr style="border: 0; border-top: 1 px solid #e2e8f0; margin: 30 px 0;">
+
+                <div style="text-align: center;">
+                    <p style="font-size: 1.3 rem; color: #1e3a8a; margin-bottom: 25 px; font-weight: bold;">
+                        ما هو المعلم التراثي المقصود؟
+                    </p>
+
+                    <div id="quiz-options" style="display: grid; grid-template-columns: 1 fr 1 fr; gap: 15 px;">
+                        <button onclick="handleResponse ( this ,false)" class="quiz-btn">A) معبد أبو سمبل</button>
+                        <button onclick="handleResponse( this, false)" class="quiz-btn">B) وادي الملوك</button>
+                        <button onclick="handleResponse( this, true)" class="quiz-btn">C) الأهرامات المصرية</button>
+                        <button onclick="handleResponse( this, false)" class="quiz-btn">D) معبد الأقصر</button>
+                    </div>
+
+                    <div id="quiz-feedback" style="margin-top: 25 px; font-weight: 700; font-size: 1.2 rem; min-height: 40 px;"></div>
+                </div>
+            </div>
+        </section>
+
+        <p style="margin-top: 20 px; font-weight: bold; color: var (--tech-purple); text-align: center;">
             إبداعنا يبدأ من مدرسة تلاع العلي.. وهدفه إلهام العالم.
         </p>
     </div>
 </section>
+
 <footer>
     <p>تم التطوير لـ «الأسبوع العربي للبرمجة 2025»</p>
     <p>بواسطة فريق مدرسة تلاع العلي الثانوية للبنات ©</p>
 </footer>
 
-</body>
+<script>
+functionhandleResponse(btn, isCorrect) {
+    constfeedback = document.getElementById('quiz-feedback');
+    constallBtns = document.querySelectorAll('.quiz-btn');
+    
+    allBtns.forEach(b => {
+        b.classList.remove('wrong-ans');
+    });
+    
+    if (isCorrect) {
+        btn.classList.add('correct-ans');
+        btn.innerHTML = "C) الأهرامات المصرية ✅";
+        feedback.innerHTML = "ممتاز! إجابة صحيحة 🌟";
+        feedback.style.color = "#22c55e";
+        allBtns.forEach(b => b.style.pointerEvents = "none");
+    } else {
+        btn.classList.add('wrong-ans');
+        feedback.innerHTML = "خطأ! أعيد مشاهدة الفيديو وحاول مرة أخرى 🧐";
+        feedback.style.color = "#ef4444";
+        setTimeout(() => {
+            btn.classList.remove('wrong-ans');
+        }, 1000);
+    }
+}
+</script>
 
+</body>
 </html>
